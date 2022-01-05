@@ -38,7 +38,9 @@ padding-right: 5% ;
   background-repeat: no-repeat;
 }
 .Experiences-area{
-background-image: url();
+background-image: url(exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
 }
  .id{
    padding-top: 50px;
@@ -56,4 +58,17 @@ background-image: url();
   padding-left: 20px;
   border-radius: 10px;
   width:40%;
+}
+#one{
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#secend{
+  border-image: linear-gradient(purple, tomato);
+  border-left: 7px solid;
+  border-image-slice: 1;
+}
+footer{
+  text-align: center;
 }
