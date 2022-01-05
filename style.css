@@ -8,7 +8,7 @@ h1{
 .orange{
  color: orange;
 }
-section{
+.Experiences{
   display: flex;
   margin-bottom: 150px;
 }
@@ -39,4 +39,10 @@ padding-right: 5% ;
  }
  .big-dream{
   display: flex;
+  background-image: url(dream-bg.png);
+  background-repeat: no-repeat;
+  background-position:right;
+ }
+ .Experiences-area{
+   display:flex;
  }
